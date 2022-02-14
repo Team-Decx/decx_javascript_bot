@@ -9,7 +9,7 @@ module.exports = {
             name: 'usuário',
             type: 'USER',
             description: 'Usuário para ver avatar.',
-            require: false,
+            required: false,
         }
     ],
     run: async (client, interaction) => {

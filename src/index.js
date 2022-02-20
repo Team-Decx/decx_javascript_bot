@@ -1,5 +1,9 @@
 require('dotenv').config();
 const { Client, Intents, Collection } = require('discord.js');
+const Database = require('./config/database');
+const db = new Database;
+
+db.connect();
 
 const client = new Client({
     intents: [

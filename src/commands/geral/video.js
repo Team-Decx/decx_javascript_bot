@@ -1,5 +1,6 @@
 const discord = require('discord.js');
 const Video = require('../../models/video');
+const pagination = require('discord.js-pagination');
 
 module.exports = {
     name: 'video',

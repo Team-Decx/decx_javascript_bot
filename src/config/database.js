@@ -6,7 +6,7 @@ class Database {
     }
 
     connect() {
-        const mongo_url = "xxx";
+        const mongo_url = 'XXX';
         console.log('Tentando conexão com banco de dados...');
         mongoose.connect(mongo_url, {
             useNewUrlParser: true,
